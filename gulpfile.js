@@ -72,10 +72,10 @@ gulp.task('copy', function () {
     .pipe($.size({title: 'copy'}));
 });
 
-// Copy web fonts to dist
+// Copy web fonts to dist //Kwang
 gulp.task('fonts', function () {
   return gulp.src(['app/fonts/**'])
-    .pipe(gulp.dest('dist/fonts')) //KWANG
+    .pipe(gulp.dest('dist/fonts'))
     .pipe($.size({title: 'fonts'}));
 });
 
