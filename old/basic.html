@@ -8,18 +8,18 @@
     <title>Web Starter Kit</title>
 
     <!-- Add to homescreen -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="../app/manifest.json">
 
     <!-- Fallback to homescreen for Chrome <39 on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <link rel="icon" sizes="192x192" href="../app/images/touch/chrome-touch-icon-192x192.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
-    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="../app/images/touch/apple-touch-icon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
@@ -33,69 +33,31 @@
     -->
 
     <!-- Page styles -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../app/styles/main.css">
   </head>
   <body>
     <header class="app-bar promote-layer">
       <div class="app-bar-container">
-        <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
+        <button class="menu"><img src="../app/images/hamburger.svg" alt="Menu"></button>
         <h1 class="logo"><strong>Undergraduate Research</strong> of Math & CS at QCC</h1>
-        <section class="app-bar-actions">
-          <!-- Put App Bar Buttons Here -->
-          <!--<a href="index.html"><button><i class="icon icon-star"></i></button></a>-->
-        </section>
+        <a class="app-bar-actions">
+        <!-- Put App Bar Buttons Here -->
+        <!--<a href="index.html"><button><i class="icon icon-star"></i></button></a>-->
       </div>
     </header>
     <nav class="navdrawer-container promote-layer">
       <h4>Navigation</h4>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="members.html">Members</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="funds.html">Funds</a></li>
-        <li><a href="links.html">Links</a></li>
+        <li><a href="../app/index.html">Home</a></li>
+        <li><a href="../app/members.html">Members</a></li>
+        <li><a href="../app/projects.html">Projects</a></li>
+        <li><a href="../app/funds.html">Funds</a></li>
+        <li><a href="../app/styleguide.html">Links</a></li>
       </ul>
     </nav>
     <main>
-      <a class="anchor" id="project"></a>
-      <section class="styleguide__breadcrumb">
-        <div class="code-sample">
-          <nav class="breadcrumbs">
-            <p>
-              <a href="#project2015A1" class="breadcrumbs__link">Project 2015A1</a> /
-              <a href="#ignore-click" class="breadcrumbs__link">Project 2</a> /
-            </p>
-          </nav>
-        </div>
-      </section>
-      <section>
-        <h2>Project List</h2>
-        <div class="featured-section">
-          <span class="anchored" id="project"></span>
-          <div class="container-medium">
-            <ul class="featured-list">
-              <a class="anchored" id="project-2015A1"></a>
-              <li class="featured-list__item clear">
-                <h3><a href="projects/project-2015A1.html" class=""><strong>Project-2015A1</strong></a></h3>
-                <div class="container-small">
-                  <div class="featured-list__content g--half">
-                    <h3>Riemann Hypothesis </h3>
-                    <h4>Student:<a href="members.html#tigermail11">Student11</a></h4>
-                    <h4>Mentor:<a href="members.html#mentor-abulawa">Andrew</a></h4>
-                    <h4><a href="projects/project-2015A1.html" class="cta--primary"><strong>View project-2015A1</strong></a></h4>
-                  </div>
-                  <div class="featured-spotlight__container g--half g--last">
-                    <!--<div class="featured-spotlight__img">-->
-                    <div class="g-centered">
-                      <a href="projects/project-2015A1.html"><img src="images/icons/placeholder--small.png" alt="small image placeholder example"></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+
+
     </main>
     <footer class="app-footer">
       <div id="footer">
@@ -111,7 +73,7 @@
       </div>
     </footer>
     <!-- build:js scripts/main.min.js -->
-    <script src="scripts/main.js"></script>
+    <script src="../app/scripts/main.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

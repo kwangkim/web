@@ -40,7 +40,7 @@
       <div class="app-bar-container">
         <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
         <h1 class="logo"><strong>Undergraduate Research</strong> of Math & CS at QCC</h1>
-        <a class="app-bar-actions">
+        <section class="app-bar-actions">
         <!-- Put App Bar Buttons Here -->
         <!--<a href="index.html"><button><i class="icon icon-star"></i></button></a>-->
         </section>
@@ -53,10 +53,9 @@
         <li><a href="members.html">Members</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="funds.html">Funds</a></li>
-        <li><a href="styleguide.html">Links</a></li>
+        <li><a href="links.html">Links</a></li>
       </ul>
     </nav>
-
     <main>
       <section id="committee">
         <h2>Committee members</h2>
@@ -68,47 +67,102 @@
           <li><strong>Sylvia</strong> Member</li>
         </ul>
       </section>
+      <!--<section class="styleguide__featured-section">-->
       <section>
-        <a class="anchor" id="mentor"></a>
+        <span class="anchored" id="mentor"></span>
         <h2>Research Mentors</h2>
-        <ul>
-          <a class="anchor" id="mentor-andrew"></a>
-          <li>
-            <h3><strong>Andrew</strong></h3>
-            <p>Picture here. Explain interest.</p>
-            <p>Research topic: <strong>Geometry</strong></p>
-            <p>Mentee(s):<a href="#tigermail1"><strong>Student1</strong></a></p>
-          </li>
-          <a class="anchor" id="mentor-zeynep"></a>
-          <li>
-            <h3><strong>Zeynep</strong></h3>
-            <p>Picture here. Explain interest.</p>
-            <p>Research topic: <strong>Geometry</strong></p>
-            <p>Mentee(s):<a href="#tigermail2"><strong>Student2</strong></a></p>
-          </li>
-        </ul>
+        <div class="featured-section">
+          <div class="container-medium">
+            <ul class="featured-list">
+              <a class="anchored" id="mentor-abulawa"></a>
+              <li class="featured-list__item clear">
+                <h3><a href="http://www.qcc.cuny.edu/mathCS/people/ABulawa.html" class="cta--primary"><strong>Andrew</strong></a></h3>
+                <div class="container-small">
+                  <div class="featured-spotlight__container g--half g--last">
+                    <!--<div class="featured-spotlight__img">-->
+                    <div class="g-centered">
+                      <a href="http://www.qcc.cuny.edu/mathCS/people/ABulawa.html"><img src="https://commons.gc.cuny.edu/wp-content/blogs.dir/1/files/avatars/5257/9a6e7c5403a8eb1e8d46db8750746b8c-bpfull.png" alt="small image placeholder example"></a>
+                    </div>
+                  </div>
+                  <div class="featured-list__content g--half">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae varius augue, eu varius dolor.</p>
+                    <strong>Relativity</strong></br>
+                    Mentee(s):<a href="#tigermail11"><strong>Student11</strong></a></br>
+                    <a href="mailto:ABulawa@qcc.cuny.edu">ABulawa@qcc.cuny.edu</a>
+                  </div>
+                </div>
+              </li>
+              <a class="anchored" id="mentor-zakcay"></a>
+              <li class="featured-list__item clear">
+                <h3><a href="http://www.qcc.cuny.edu/mathCS/people/ZAkcay.html" class="cta--primary"><strong>Zeynep</strong></a></h3>
+                <div class="container-small">
+                  <div class="featured-list__content g--half g--last">
+                    <!--<div class="featured-spotlight__img">-->
+                    <div class="g-centered">
+                      <a href="http://www.qcc.cuny.edu/mathCS/people/ZAkcay.html"><img src="http://www.qcc.cuny.edu/mathCS/people-images/ZAkcay.jpg" alt="small image placeholder example"></a>
+                    </div>
+                  </div>
+                  <div class="featured-list__content g--half">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae varius augue, eu varius dolor.</p>
+                    <strong>Mathematical Neuroscience</strong></br>
+                    Mentee(s):<a href="#tigermail12"><strong>Student12</strong></a></br>
+                    <a href="mailto:ZAkcay@qcc.cuny.edu">ZAkcay@qcc.cuny.edu</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section id="student">
+      <section>
         <h2>Research Students</h2>
-        <ul>
-          <a class="anchor" id="tigermail1"></a>
-          <li>
-            <h3><strong>Student1</strong></h3>
-            <p>Semester:2015 Spring</p>
-            <p>Research topic: <strong>Geometry</strong></p>
-            <p>Research Mentor: <a href="#mentor-andrew">Andrew</a></p>
-            <p>Picture here. Explain interest.</p>
-          </li>
-          <a class="anchor" id="tigermail2"></a>
-          <li>
-            <h3><strong>Student2</strong></h3>
-            <p>Semester:2015 Spring</p>
-            <p>Research topic: <strong>Geometry</strong></p>
-            <p>Research Mentor: <a href="#mentor-zeynep">Zeynep</a></p>
-            <p>Picture here. Explain interest.</p>
-          </li>
-        </ul>
+        <div class="featured-section">
+          <span class="anchored" id="student"></span>
+          <div class="container-medium">
+            <ul class="featured-list">
+              <a class="anchored" id="tigermail11"></a>
+              <li class="featured-list__item clear">
+                <h3><strong>Student11</strong></h3>
+                <div class="container-small">
+                  <div class="featured-spotlight__container g--half g--last">
+                    <!--<div class="featured-spotlight__img">-->
+                    <div class="g-centered">
+                      <a href="#tigermail11"><img src="images/icons/placeholder--small.png" alt="small image placeholder example"></a>
+                    </div>
+                  </div>
+                  <div class="featured-list__content g--half">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae varius augue, eu varius dolor.</p>
+                    <strong>Relativity</strong></br>
+                    Mentor:<a href="#mentor-abulawa"><strong>Andrew</strong></a></br>
+                    <a href="projects/project-2015A1.html" class="cta--primary">Project-2015A1</a>
+                    <a href="mailto:tigermail11@tigermail.qcc.cuny.edu">tigermail11@tigermail.qcc.cuny.edu</a>
+                  </div>
+                </div>
+              </li>
+              <a class="anchored" id="tigermail12"></a>
+              <li class="featured-list__item clear">
+                <h3><strong>Student12</strong></h3>
+                <div class="container-small">
+                  <div class="featured-spotlight__container g--half g--last">
+                    <!--<div class="featured-spotlight__img">-->
+                    <div class="g-centered">
+                      <a href="#tigermail12"><img src="images/icons/placeholder--small.png" alt="small image placeholder example"></a>
+                    </div>
+                  </div>
+                  <div class="featured-list__content g--half">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae varius augue, eu varius dolor.</p>
+                    <strong>Nano</strong></br>
+                    Mentor:<a href="#mentor-zakcay"><strong>Zeynep</strong></a></br>
+                    <a href="mailto:tigermail12@tigermail.qcc.cuny.edu">tigermail12@tigermail.qcc.cuny.edu</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
+
+
     </main>
     <footer class="app-footer">
       <div id="footer">
